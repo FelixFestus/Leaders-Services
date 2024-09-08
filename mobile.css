@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    width: 100vw;
+    height: 20vh;
+    position: fixed;
+    background-color: aliceblue;
+}
+.navnum{
+    background-color: rgb(8, 113, 185);
+    color: white;
+    height: 5vh;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+.menu{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+
+}
+nav ul li{
+    list-style-type: none;
+    padding: 2rem;
+}
+nav ul li a{
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+}
+.sectionone{
+    width: 100vw;
+    height: 170vh;
+    background-color: rgb(8, 113, 185);
+    color: white;
+  
+    padding-top: 15rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sec1text{
+    width: 100%;
+}
+.sec1form{
+    width: 100%;
+   
+    
+}
+.formtitle{
+    width: 120%;
+    height: 90%;
+    
+    padding-top: 5rem;
+    background-color: rgb(171, 168, 168);
+    
+}
+.sectionone h2{
+    font-size: 5rem;
+    padding-top: 10rem;
+}
+.check li{
+    list-style-type: none;
+}
+.checkimg{
+   
+    width: 100%;
+    display: flex;
+}
+.check {
+    margin-right: 2rem;
+    font-size: 4rem;
+}
+#formselect{
+    width: 100%;
+    font-size: 3rem;
+    color: rgb(90, 89, 89);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+#formselect1{
+    width: 100%;
+    font-size: 3rem;
+    color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: red;
+}
+#formselect1:hover{
+    width: 100%;
+    font-size: 3rem;
+    color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(213, 7, 7);
+}
+.formtitle h3{
+    font-size: 4rem;
+    color: rgb(8, 113, 185);
+    text-align: center;
+    border: none;
+    margin: 2rem;
+}
+.call{
+    color: rgb(32, 31, 31);
+    font-size: 3rem;
+    text-align: center;
+}
+.pn{
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+}
+.pn:hover{
+    color: rgb(39, 132, 213);
+    font-size: 5.5rem;
+    text-align: center;
+}
+.sectiontwo{
+    width: 100%;
+    height: 220vh;
+}
+.sec2top{
+    text-align: center;
+    padding-top: 10rem;
+}
+.sec2top h2{
+    font-size: 4rem;
+}
+.sec2img{
+    padding-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10rem;
+   
+}
+.sec2img1{
+    width: 100%;
+    padding-bottom: 5rem;
+}
+.swipe{
+    width: 100%;
+   
+}
+.sec2img1 h3{
+    font-size: 4rem;
+    text-align: center;
+}
+.sec2img1 p{
+    font-size: 3.3rem;
+}
+.sectionthree{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    background-color: rgb(8, 113, 185);
+    padding: 2rem;
+    flex-wrap: wrap;
+   
+}
+.sec3img{
+    width: 100%;
+    height: 30%;
+    padding-left: 10rem;
+}
+.sec3text{
+    width: 100%;
+    color: white;
+    padding-top: 40rem;
+}
+.sec3text h2{
+    font-size: 5rem;
+}
+.sec3text p{
+    font-size: 3rem;
+}
+.sectionfour{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(220, 216, 216);
+   
+}
+.mission h2{
+    padding-top: 10rem;
+   text-align: center;
+    font-size: 4rem;
+   
+}
+.mission p{
+   
+    font-size: 3.7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+.mission h6{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.sectionfive{
+    width: 100%;
+    height: 270vh;
+    text-align: center;
+    padding-top: 10rem;
+}
+.sec5ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.sec5ul li p{
+    text-decoration: none;
+    font-size: 3.5rem;
+    padding: 3rem;
+    
+}
+.sec5img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10rem;
+}
+.sec5img1{
+    width: 100%;
+    padding-bottom: 5rem;
+    
+}
+.clove{
+    width: 100%;
+}
+.sec5img1 h2{
+    font-size: 4rem;
+    text-align: center;
+}
+.sec5img1 p{
+    font-size: 3.3rem;
+}
+.learn{
+    background-color: rgb(8, 113, 185);
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    border-radius: 3rem;
+    border: none;
+}
+.learn:hover{
+    background-color: rgb(4, 62, 100);
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    border-radius: 3rem;
+    border: none;
+}
+.sectionsix{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://www.leadersmerchantservices.com/fileadmin/user_upload/homepage/banner-lp-swipe-simple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sec6blank{
+    width: 100%;
+    height: 60vh;
+    z-index: 1;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec6blank h2{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    color: white;
+
+}
+.sec6blank h5{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.get{
+    background-color: red;
+    padding: 1.5rem;
+    width: 30%;
+    font-size: 2rem;
+    border: none;
+    border-radius: 3rem;
+    font-weight: 600;
+    color: white;
+}
+.get:hover{
+    background-color: rgb(173, 7, 7);
+    padding: 1.5rem;
+    width: 20%;
+    font-size: 3rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.sectionseven{
+    width: 100%;
+    height: 80vh;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10rem;
+}
+.socials li{
+    padding: 2rem;   
+    background-color: rgb(8, 113, 185);
+    font-size: 3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+   
+}
+.socials li:hover{
+    padding: 2rem;   
+    background-color: white;
+    font-size: 3rem;
+    color: rgb(8, 113, 185);
+    border-radius: 1rem;
+}
+.footer{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.footer li{
+   padding-left: 20rem;
+    padding: 2rem;
+    
+   
+}
+.footer li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(8, 113, 185);
+  
+}
+.footer li a:hover{
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(48, 161, 236);
+  
+}
+.footerp{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(8, 113, 185);
+}
+
+
+
+
+
